@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  position: relative;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: black;
+  color: #FFF;
+  line-height: 1.55em;
+}
+
+#wrap {
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: none;
+  margin-bottom: -4em;
+}
+
+#logo1 div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  height: calc((100vw - 3rem) * 0.1573);
+}
+#logo1 div svg {
+  width: 100%;
+  height: 70%;
+  animation: attentionExtnd1 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(1, -0.73, 0, 1.63);
+}
+
+#attention1 {
+  left: 25px;
+}
+
+#logo2 {
+  left: 30%;
+}
+#logo2 div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  height: calc((100vw - 3rem) * 0.1573);
+}
+#logo2 div svg {
+  width: 100%;
+  height: 70%;
+  animation: attentionExtnd1 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: cubic-bezier(1, -0.73, 0, 1.63);
+}/*# sourceMappingURL=style.css.map */
